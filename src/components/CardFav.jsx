@@ -35,7 +35,7 @@ const Cardfav = ({ title, rating, image, onClick, event, e,backdrop_path }) => {
         <p className="card-title text-sm sm:text-base truncate">{title}</p>
 
         <button className={`btn btn-primary w-full`} onClick={() => onDelete({ e })}>
-          <AiFillStar className='mr-2' /><p className='text-sm font-semibold'>delete</p>
+          <p className='text-sm font-semibold'>delete</p>
         </button>
 
       </div>
