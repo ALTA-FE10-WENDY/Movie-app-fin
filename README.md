@@ -6,7 +6,7 @@ Created a mockup using Vite with data from The Movie Database API with the follo
 2. Ability to change color themes
 3. Ability to show favorited movies and delete them
 
-Fully responsive and deployed to :
+Fully responsive and deployed to : https://main--glittery-rabanadas-3a5c61.netlify.app/
 
 Primary Screen:
 ![image](https://user-images.githubusercontent.com/107352402/205136797-f3056605-fb30-4b92-a90d-856309043210.png)
