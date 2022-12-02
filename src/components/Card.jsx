@@ -3,8 +3,8 @@ import { AiFillStar } from "react-icons/ai";
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
-import { addFavorite } from '../Features/balanceSlice';
-import { deleteFavorite } from '../Features/balanceSlice';
+import { addFavorite } from '../features/balanceSlice';
+import { deleteFavorite } from '../features/balanceSlice';
 
 const Cardfav = ({ title, rating, image, onClick, event, e,backdrop_path }) => {
   const [value, setValue] = useState("");
