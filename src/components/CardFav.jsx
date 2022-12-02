@@ -27,7 +27,7 @@ const Cardfav = ({ title, rating, image, onClick, event, e,backdrop_path }) => {
   }
 
   return (
-    <div className="card card-compact w-full bg-black bg-opacity-30 shadow-xl outline-1 outline-dashed">
+    <div className="card card-compact w-full bg-black bg-opacity-30 shadow-xl outline-1 outline-dashed hover:scale-110 transition ease-in-out duration-300">
       <figure className='object-scale-down relative group' >
         <img src={image} alt="image failed to load" className='object-scale-down group-hover:opacity-30' onClick={onClick} />
       </figure>
