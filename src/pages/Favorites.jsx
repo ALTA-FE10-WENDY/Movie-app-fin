@@ -5,8 +5,6 @@ import Cardfav from '../components/CardFav';
 
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
-import { addFavorite } from '../Features/balanceSlice';
-import { deleteFavorite } from '../Features/balanceSlice';
 import { useNavigate } from 'react-router-dom';
 
 import { useCountContext } from '../context/context'
