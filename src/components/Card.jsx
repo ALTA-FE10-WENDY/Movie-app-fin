@@ -9,10 +9,7 @@ import { deleteFavorite } from '../features/balanceSlice';
 const Cardfav = ({ title, rating, image, onClick, event, e,backdrop_path }) => {
   const [value, setValue] = useState("");
   
-
   const dispatch = useDispatch();
-
-
 
   const onSubmit = ({ event }) => {
     dispatch(addFavorite({
